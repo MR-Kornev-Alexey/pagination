@@ -121,7 +121,7 @@ export default function PaginatedTable() {
 
             productIds = Array.from(new Set(productIds.slice(0, 100)));
             const productDetails = await fetchProductDetails(productIds);
-
+            // Вычисляем количество страниц
             const totalPages = Math.ceil(productIds.length / productsPerPage);
             setTotalPages(totalPages);
             setProducts(productDetails);
