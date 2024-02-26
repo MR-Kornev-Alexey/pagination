@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org/) project with MUI
+This is a [Next.js](https://nextjs.org/) project with MUI (https://mui.com/)
 
 API v1.02
 A page that displays a list of products. For each product, its id, name, price and brand are displayed.
