@@ -10,8 +10,8 @@ export default function AlertModal({isOpen, closeModal, errorGetOfData}) {
         let timeoutId;
         if (errorGetOfData) {
             timeoutId = setTimeout(() => {
-                closeModal(); // Закрытие модального окна
-            }, 3000); // 5000 миллисекунд = 5 секунд
+                closeModal();
+            }, 3000);
         }
         return () => {
             clearTimeout(timeoutId);
