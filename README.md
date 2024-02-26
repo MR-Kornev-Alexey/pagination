@@ -1,12 +1,12 @@
 This is a [Next.js](https://nextjs.org/) project with [MUI](https://mui.com/)
 
-API v1.02
+API v1.02  
 A page that displays a list of products. For each product, its id, name, price and brand are displayed.
-Requirements:
-· display 50 products per page with the possibility of pagination (pagination) in both directions.
-· ability to filter results using the provided API by name, price and brand
-
-If the API returns duplicates by id, then they should be considered one product and only the first one should be displayed, even if other fields are different.
+  Requirements:  
+· display 50 products per page with the possibility of pagination (pagination) in both directions.  
+· ability to filter results using the provided API by name, price and brand.  
+  
+If the API returns duplicates by id, then they should be considered one product and only the first one should be displayed, even if other fields are different.  
 
 ## Getting Started
 
